@@ -1,1 +1,2 @@
-# interact is a touch-sensitive map helping raise awareness about the tangible global progress made towards gender equality, inspired by the UN's fifth sustainable development goal! 
+# a touch-sensitive map to help raise awareness regarding tangible global progress made towards gender equality
+# ~ inspired by the UN's fifth sustainable development goal! 
