@@ -13,6 +13,11 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate, C
     
     @IBOutlet weak var factsButton: UIButton!
     @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var ratesImage: UIImageView!
+    @IBOutlet weak var mortalityImage: UIImageView!
+    @IBOutlet weak var govleadImage: UIImageView!
+    
     let transition = CircularTransition()
     func mqttDidPing(_ mqtt: CocoaMQTT) {
     }
@@ -33,6 +38,10 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate, C
                 self.imageView.image = UIImage(named: "")
             } else {
                  self.imageView.image = UIImage(named: "\(message.string!)")
+                self.govleadImage.image = UIImage(named: "govlead\(message.string!)")
+                
+                self.mortalityImage.image = UIImage(named: "mortality\(message.string!)")
+                self.ratesImage.image = UIImage(named: "rates\(message.string!)")
             }
         }
     }
@@ -74,6 +83,9 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate, C
         mqtt.didReceiveMessage = { mqtt, message, id in
             print("Message received in topic \(message.topic) with payload \(message.string!)")
              self.imageView.image = UIImage(named: "\(message.string!)")
+            self.govleadImage.image = UIImage(named: "govlead\(message.string!)")
+            self.mortalityImage.image = UIImage(named: "mortality\(message.string!)")
+            self.ratesImage.image = UIImage(named: "rates\(message.string!)")
         }
 
 

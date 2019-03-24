@@ -18,17 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="facts" translatesAutoresizingMaskIntoConstraints="NO" id="NMd-ix-OBy">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facts" translatesAutoresizingMaskIntoConstraints="NO" id="NMd-ix-OBy">
                                 <rect key="frame" x="141" y="563" width="87" height="84"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="North America" translatesAutoresizingMaskIntoConstraints="NO" id="WRd-LP-iWP">
-                                <rect key="frame" x="16" y="64" width="343" height="454"/>
+                                <rect key="frame" x="27" y="55" width="317" height="271"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="454" id="pc7-W3-Xzb"/>
+                                    <constraint firstAttribute="height" constant="271" id="DX6-z6-i09"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3l2-nQ-Cvp">
-                                <rect key="frame" x="128" y="546" width="114" height="114"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3l2-nQ-Cvp">
+                                <rect key="frame" x="130" y="590" width="114" height="30"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="17"/>
                                 <state key="normal" title="FACTS">
                                     <color key="titleColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -37,23 +37,90 @@
                                     <segue destination="eQc-ih-IGw" kind="show" identifier="Show" id="ymz-Ia-vJ5"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="govleadNorth America" translatesAutoresizingMaskIntoConstraints="NO" id="wdj-uo-KyD">
+                                <rect key="frame" x="43" y="334" width="122" height="95"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mortalityNorth America" translatesAutoresizingMaskIntoConstraints="NO" id="hiZ-yg-zfX">
+                                <rect key="frame" x="199" y="334" width="122" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="VZ5-rW-Tbn"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ratesNorth America" translatesAutoresizingMaskIntoConstraints="NO" id="HX8-IA-XYs">
+                                <rect key="frame" x="95" y="462" width="185" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="6IR-0x-nzT"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Percentage of Women Holding Positions in Government " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BkI-1P-b4x">
+                                <rect key="frame" x="16" y="362" width="110" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="eth-0I-syR"/>
+                                    <constraint firstAttribute="width" constant="110" id="vcT-HD-AXM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender Disparity in Adults with High School Education" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofc-SP-HWi">
+                                <rect key="frame" x="27" y="516" width="110" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="Msv-Tv-t4j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender Disparity in Adult Workforce" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAu-gU-0pU">
+                                <rect key="frame" x="234" y="516" width="110" height="39"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="WRd-LP-iWP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="AIa-b3-aNq"/>
-                            <constraint firstItem="3l2-nQ-Cvp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="128" id="D5h-3V-Fkm"/>
-                            <constraint firstItem="3l2-nQ-Cvp" firstAttribute="top" secondItem="WRd-LP-iWP" secondAttribute="bottom" constant="28" id="OKb-7K-HX3"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3l2-nQ-Cvp" secondAttribute="trailing" constant="133" id="U02-PA-zxI"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3l2-nQ-Cvp" secondAttribute="bottom" constant="7" id="Vwh-1X-zfo"/>
-                            <constraint firstItem="WRd-LP-iWP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XFo-hw-kkU"/>
-                            <constraint firstItem="3l2-nQ-Cvp" firstAttribute="centerX" secondItem="NMd-ix-OBy" secondAttribute="centerX" id="Zoh-Le-SkN"/>
-                            <constraint firstItem="WRd-LP-iWP" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="wk7-0y-dnU"/>
+                            <constraint firstItem="3l2-nQ-Cvp" firstAttribute="centerX" secondItem="HX8-IA-XYs" secondAttribute="centerX" id="0gI-6i-oOA"/>
+                            <constraint firstItem="3l2-nQ-Cvp" firstAttribute="top" secondItem="ofc-SP-HWi" secondAttribute="bottom" constant="35" id="1f1-K8-jk5"/>
+                            <constraint firstItem="ofc-SP-HWi" firstAttribute="leading" secondItem="WRd-LP-iWP" secondAttribute="leading" id="4Wr-Lu-ele"/>
+                            <constraint firstItem="HX8-IA-XYs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5v7-Oq-A3Q"/>
+                            <constraint firstItem="HX8-IA-XYs" firstAttribute="top" secondItem="wdj-uo-KyD" secondAttribute="bottom" constant="33" id="6Kq-Y1-dee"/>
+                            <constraint firstItem="HX8-IA-XYs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="6jl-Gg-g3p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3l2-nQ-Cvp" secondAttribute="bottom" constant="47" id="CA1-pE-2ab"/>
+                            <constraint firstItem="hiZ-yg-zfX" firstAttribute="bottom" secondItem="wdj-uo-KyD" secondAttribute="bottom" id="Ebe-jH-f2U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WRd-LP-iWP" secondAttribute="trailing" constant="31" id="KLI-nS-9Wf"/>
+                            <constraint firstItem="WRd-LP-iWP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="LVU-eb-AGF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hiZ-yg-zfX" secondAttribute="trailing" constant="54" id="Ld5-Cs-CdM"/>
+                            <constraint firstItem="BkI-1P-b4x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OhE-NT-rMd"/>
+                            <constraint firstItem="hiZ-yg-zfX" firstAttribute="top" secondItem="wdj-uo-KyD" secondAttribute="top" id="Oyc-2i-Lpe"/>
+                            <constraint firstItem="3l2-nQ-Cvp" firstAttribute="top" secondItem="GAu-gU-0pU" secondAttribute="bottom" constant="35" id="Qp3-W2-tyV"/>
+                            <constraint firstItem="hiZ-yg-zfX" firstAttribute="top" secondItem="WRd-LP-iWP" secondAttribute="bottom" constant="8" symbolic="YES" id="V1U-k2-5iR"/>
+                            <constraint firstItem="hiZ-yg-zfX" firstAttribute="leading" secondItem="wdj-uo-KyD" secondAttribute="trailing" constant="34" id="YIx-Z7-uB2"/>
+                            <constraint firstItem="GAu-gU-0pU" firstAttribute="leading" secondItem="ofc-SP-HWi" secondAttribute="trailing" constant="97" id="ZtX-ai-gRC"/>
+                            <constraint firstItem="NMd-ix-OBy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="141" id="a4W-Hb-Ucx"/>
+                            <constraint firstItem="3l2-nQ-Cvp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="130" id="aF9-HL-vx0"/>
+                            <constraint firstItem="NMd-ix-OBy" firstAttribute="top" secondItem="HX8-IA-XYs" secondAttribute="bottom" constant="41" id="aQB-5c-2oe"/>
+                            <constraint firstAttribute="bottom" secondItem="NMd-ix-OBy" secondAttribute="bottom" constant="20" symbolic="YES" id="eo1-ze-ECL"/>
+                            <constraint firstItem="BkI-1P-b4x" firstAttribute="centerY" secondItem="wdj-uo-KyD" secondAttribute="centerY" id="fdT-oA-MmP"/>
+                            <constraint firstItem="3l2-nQ-Cvp" firstAttribute="centerY" secondItem="NMd-ix-OBy" secondAttribute="centerY" id="foY-Da-4FK"/>
+                            <constraint firstItem="GAu-gU-0pU" firstAttribute="trailing" secondItem="WRd-LP-iWP" secondAttribute="trailing" id="lNA-Ya-t4K"/>
+                            <constraint firstItem="GAu-gU-0pU" firstAttribute="firstBaseline" secondItem="ofc-SP-HWi" secondAttribute="firstBaseline" id="nMC-cW-hqk"/>
+                            <constraint firstItem="WRd-LP-iWP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="s9w-Ha-rmu"/>
+                            <constraint firstItem="BkI-1P-b4x" firstAttribute="top" secondItem="WRd-LP-iWP" secondAttribute="bottom" constant="36" id="sIl-9d-qfZ"/>
+                            <constraint firstItem="GAu-gU-0pU" firstAttribute="top" secondItem="hiZ-yg-zfX" secondAttribute="bottom" constant="87" id="taA-8e-eUY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NMd-ix-OBy" secondAttribute="trailing" constant="147" id="wZr-JW-L3Y"/>
+                            <constraint firstItem="ofc-SP-HWi" firstAttribute="top" secondItem="wdj-uo-KyD" secondAttribute="bottom" constant="87" id="y4s-XP-qAh"/>
+                            <constraint firstItem="wdj-uo-KyD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="ySg-zo-Ez3"/>
+                            <constraint firstItem="GAu-gU-0pU" firstAttribute="baseline" secondItem="ofc-SP-HWi" secondAttribute="baseline" id="z8k-Vs-m0K"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="factsButton" destination="3l2-nQ-Cvp" id="V1C-bS-XDN"/>
+                        <outlet property="govleadImage" destination="wdj-uo-KyD" id="Hd8-9D-DY1"/>
                         <outlet property="imageView" destination="WRd-LP-iWP" id="1a1-A7-OzM"/>
+                        <outlet property="mortalityImage" destination="hiZ-yg-zfX" id="jNh-GF-9AH"/>
+                        <outlet property="ratesImage" destination="HX8-IA-XYs" id="YwH-el-zhF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -68,47 +135,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="black" translatesAutoresizingMaskIntoConstraints="NO" id="wmC-g9-SJX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="black" translatesAutoresizingMaskIntoConstraints="NO" id="wmC-g9-SJX">
                                 <rect key="frame" x="145" y="544" width="84" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZ3-2S-Xqh">
-                                <rect key="frame" x="151" y="562" width="72" height="59"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="59" id="095-3C-Ej2"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="GujaratiSangamMN-Bold" family="Gujarati Sangam MN" pointSize="17"/>
-                                <state key="normal" title="BACK">
-                                    <color key="titleColor" red="0.34509803921568627" green="0.45882352941176469" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZ3-2S-Xqh">
+                                <rect key="frame" x="29" y="532" width="316" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GujaratiSangamMN-Bold" family="Gujarati Sangam MN" pointSize="30"/>
+                                <state key="normal" title="Close the Gap">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="dismissSecondVC:" destination="eQc-ih-IGw" eventType="touchUpInside" id="3Xg-5C-Zq9"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="govleadnorthamerica" translatesAutoresizingMaskIntoConstraints="NO" id="PPI-hC-Xjs">
-                                <rect key="frame" x="91" y="45" width="195" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fIB-dN-jjn">
-                                <rect key="frame" x="80" y="303" width="215" height="106"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yg1-ba-doZ">
-                                <rect key="frame" x="81" y="427" width="214" height="109"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSq-lN-x7S">
-                                <rect key="frame" x="93" y="186" width="190" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.77164505579999998" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="bZ3-2S-Xqh" firstAttribute="centerY" secondItem="wmC-g9-SJX" secondAttribute="centerY" id="Bwt-2g-mXi"/>
-                            <constraint firstItem="sIy-Kx-EnH" firstAttribute="bottom" secondItem="bZ3-2S-Xqh" secondAttribute="bottom" constant="46" id="CC7-68-C8k"/>
-                            <constraint firstItem="bZ3-2S-Xqh" firstAttribute="top" secondItem="yg1-ba-doZ" secondAttribute="bottom" constant="26" id="F34-fL-tjH"/>
-                            <constraint firstItem="bZ3-2S-Xqh" firstAttribute="centerX" secondItem="fIB-dN-jjn" secondAttribute="centerX" id="KBj-oe-rsq"/>
-                            <constraint firstItem="bZ3-2S-Xqh" firstAttribute="leading" secondItem="sIy-Kx-EnH" secondAttribute="leading" constant="151" id="kXo-a7-0ds"/>
-                            <constraint firstItem="bZ3-2S-Xqh" firstAttribute="centerX" secondItem="2dx-HJ-re1" secondAttribute="centerX" id="mBI-Lr-Tda"/>
-                            <constraint firstItem="bZ3-2S-Xqh" firstAttribute="centerX" secondItem="wmC-g9-SJX" secondAttribute="centerX" id="q8R-nt-b2c"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="sIy-Kx-EnH"/>
                     </view>
                     <connections>
@@ -124,6 +167,8 @@
         <image name="North America" width="816" height="1056"/>
         <image name="black" width="816" height="1056"/>
         <image name="facts" width="816" height="1056"/>
-        <image name="govleadnorthamerica" width="1452" height="897"/>
+        <image name="govleadNorth America" width="1452" height="897"/>
+        <image name="mortalityNorth America" width="816" height="1056"/>
+        <image name="ratesNorth America" width="1148" height="198"/>
     </resources>
 </document>
