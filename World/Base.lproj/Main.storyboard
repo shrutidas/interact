@@ -84,19 +84,19 @@
                                     <action selector="dismissSecondVC:" destination="eQc-ih-IGw" eventType="touchUpInside" id="3Xg-5C-Zq9"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PPI-hC-Xjs">
-                                <rect key="frame" x="91" y="45" width="195" height="105"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="govleadnorthamerica" translatesAutoresizingMaskIntoConstraints="NO" id="PPI-hC-Xjs">
+                                <rect key="frame" x="91" y="45" width="195" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSq-lN-x7S">
-                                <rect key="frame" x="91" y="158" width="190" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fIB-dN-jjn">
+                                <rect key="frame" x="80" y="303" width="215" height="106"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yg1-ba-doZ">
                                 <rect key="frame" x="81" y="427" width="214" height="109"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fIB-dN-jjn">
-                                <rect key="frame" x="80" y="280" width="215" height="106"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSq-lN-x7S">
+                                <rect key="frame" x="93" y="186" width="190" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.77164505579999998" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -124,5 +124,6 @@
         <image name="North America" width="816" height="1056"/>
         <image name="black" width="816" height="1056"/>
         <image name="facts" width="816" height="1056"/>
+        <image name="govleadnorthamerica" width="1452" height="897"/>
     </resources>
 </document>
