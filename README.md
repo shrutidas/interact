@@ -1,2 +1,2 @@
-# a touch-sensitive map to help raise awareness regarding tangible global progress made towards gender equality
+# a touch-sensitive map to reflect and bring awareness to global progress made towards gender equality
 ~ inspired by the UN's fifth sustainable development goal! 
